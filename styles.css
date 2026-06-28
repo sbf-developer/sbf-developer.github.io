@@ -74,12 +74,15 @@ body {
   margin-bottom: 0.75rem;
 }
 
-.subtitle {
+.credentials {
+  list-style: none;
   font-size: 0.9375rem;
-  line-height: 1.55;
+  line-height: 1.65;
   color: var(--text-muted);
-  max-width: 22rem;
-  margin: 0 auto;
+}
+
+.credentials li + li {
+  margin-top: 0.15rem;
 }
 
 .section-heading {
